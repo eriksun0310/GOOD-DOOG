@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header */
+.logo{
+    font-size: 120px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    line-height: 100px;
+    background-color: rgba(164, 164, 164, 0.75);
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Patua One', cursive ;
+}
+.logo:hover{
+    background-color: rgba(141, 141, 141, 0.796);
+    cursor: pointer;
+}
+.logo p{
+    padding-top: 10px;
+}
+/* 導覽列 */
+nav{
+    background-color: rgb(85, 85, 85);
+    text-align: center;
+}
+ul{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+ul>li{
+    display: inline;
+    list-style-type: none;
+    margin: 10px;
+}
+.fa-solid{
+    font-size: 40px;
+    padding: 10px;
+}
+li>a{
+    color:#fff;
+}
+li>a:hover{
+    color: rgb(178, 176, 176);
+}
+/* shop list i */
+#main a{
+    color:  rgb(57, 57, 57);
+}
+#main a:hover{
+    color: rgba(0, 0, 0, 0.222);
+}
+a{
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+}
+a:hover{
+    color: rgb(43, 42, 42);
+    text-decoration: underline;
+}
+/* shop list-btn */
+.list-btn{
+    display: inline;
+    float: left;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+button>i{
+    color: rgb(255, 255, 255);
+}
+.list-border{
+    margin-top: 8px;
+    border: 2px double rgb(86, 86, 86);
+}
+/* 熱銷推薦 */
+h2{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color:rgba(242, 128, 61, 0.963);
+    border:1px solid rgb(255, 255, 255);
+    font-weight: bolder;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 3px;
+    box-shadow: 3px 6px rgb(138, 137, 137);
+}
+h2 img{
+    padding-top: 3px;
+}
+h2:hover{
+    background-color:rgb(255, 94, 0);
+    cursor: pointer;
+}
+#recommend{
+    background-color: rgb(230, 226, 226);
+}
+.box{
+    border: 3px solid rgba(255, 179, 0, 0.833);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgba(255, 179, 0, 0.833);
+}
+/* shop 的主照片 */
+.item img{
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 40px;
+    border: 5px double rgb(107, 107, 107);
+}
+/* shop 的文字 */
+.title{
+    margin-top: 100px;
+    font-size: 30px;
+    margin-top: 25px;
+    font-weight: bolder;
+}
+/* shop產品介紹 */
+.text{
+    font-size: 18px;
+    background-color: rgba(231, 231, 231, 0.77);
+    border-left: 4px solid rgb(0, 0, 0);
+    font-weight: bolder;
+}
+/* 推薦 的價錢 */
+.price1{
+    color: red;
+    font-size: 30px;
+}
+/* shop 的價錢 */
+.price2{
+    color: red;
+}
+/* 原價 */
+span{
+    color: rgb(72, 72, 72);
+    font-size: 15px;
+    text-decoration: line-through;
+}
+/* shop 的商品選項 */
+.form-check{
+    font-size: 20px;
+}
+/* go!按鈕 */
+.btn-go{
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color:rgba(255, 179, 0, 0.833);
+}
+.btn-go:hover{
+    text-decoration: none;
+    border: 3px solid rgb(255, 255, 255);;
+}
+/* 購物車 */
+.btn-cart{
+    border: 3px solid rgb(147, 147, 147);
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.btn-cart:hover{
+    background-color: rgb(215, 211, 211);
+    text-decoration: none;
+    border: 3px solid rgb(255, 255, 255);
+}
+/* about */
+.about-br{
+    margin: 20px;
+    padding: 3px;
+}
+.about-title{
+    font-weight: bold;
+    font-size: 35px;
+    border: 3px solid rgb(94, 94, 94);
+    background-color: rgba(164, 164, 164, 0.75);
+    font-family: 'Patua One', cursive ;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+}
+.about-text{
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: rgba(231, 231, 231, 0.77);
+    border: 5px double rgb(94, 94, 94);
+    margin: 10px;
+    padding: 10px;
+}
+/* yuki照 */
+.item1{
+    margin-left: 80px;
+}
+.about-title1{
+    font-weight: bolder;
+    color: rgb(94, 94, 94);
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.about-img img{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 60px;
+    width: 70%;
+    margin-top: 40px;
+    box-shadow: 3px 8px #ccc;
+}
+#footer{
+    background-color:rgba(164, 164, 164, 0.75);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 18px;
+    font-weight: bolder;
+    color: #fff;
+    font-family: 'Patua One', cursive ;
+}
+#footer a:hover{
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+}
